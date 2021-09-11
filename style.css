@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: auto;
+    height: auto;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+/* ------------------------- Left ------------------------- */
+
+.left {
+    flex: 1;
+    width: 100%;
+    background-color: rgb(0, 165, 129);
+}
+
+.left hr {
+    display: block;
+    margin: auto;
+    width: 85%;
+}
+
+.profile {
+    width: 100%;
+    height: 540px;
+    padding-top: 40px;
+}
+
+.profile img {
+    width: 193px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid white;
+}
+
+.profile h1 {
+    text-align: center;
+    color: white;
+}
+
+.name {
+    padding-top: 16px;
+    font-size: 25px;
+}
+
+.status {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.profile ul {
+    color: white;
+    list-style-type: none;
+    margin: 30px 0px 0px 70px;
+}
+
+.profile li {
+    padding: 5px;
+}
+
+.profile a {
+    color: white;
+    text-decoration: none;
+}
+
+.info {
+    width: auto;
+    height: auto;
+    display: block;
+    padding: 30px 60px 30px 60px;
+}
+
+.info i {
+    color: white;
+    font-size: 30px;
+}
+
+.info h1 {
+    color: white;
+    font-size: 25px;
+    display: inline-block;
+}
+
+.info p {
+    padding: 10px 10px 0px 10px;
+    color: white;
+}
+
+.objectives {
+    width: auto;
+    height: auto;
+    color: white;
+    padding: 30px 60px 20px 60px; 
+}
+
+.objectives i {
+    font-size: 20px;
+}
+
+.objectives h1 {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.objectives ul {
+    color: white;
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.objectives li {
+    padding: 8px 8px 8px 5px;
+}
+
+.end {
+    width: auto;
+    height: auto;
+    margin: 10px 34px 10px 34px;
+    padding: 20px;
+    text-align: center;
+}
+
+.end i {
+    font-size: 20px;
+    color: white;
+}
+
+/* ------------------------- Right ------------------------- */
+
+.right {
+    flex: 2;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    color: rgb(0, 165, 129);
+}
+
+.right-heading {
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
+
+.right-heading i {
+    font-size: 40px;
+}
+
+.right-heading h1 {
+    display: inline;
+}
+
+.content {
+    width: auto;
+    height: auto;
+    margin: 0px 60px 0px 60px; 
+}
+
+.content-block {
+    width: auto;
+    height: auto;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.c1, .c2  {
+    padding: 5px;
+}
+
+.c1 {
+    flex: 0.7;
+}
+
+.c1 i {
+    font-size: 20px;
+}
+
+.c1 h2 {
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 400;
+    color: rgb(87, 87, 87);
+}
+
+.c2 {
+    flex: 2;
+}
+
+.c2 i {
+    font-size: 30px;
+}
+
+.c2 h4 {
+    font-weight: 400;
+    color: rgb(138, 138, 138);
+}
+
+.awards {
+    width: auto;
+    height: auto;
+    margin: 0px 60px 0px 60px;
+}
+
+.awards-container i {
+    font-size: 30px;
+}
+
+.awards-container h2 {
+    display: inline-block;
+    font-weight: 400;
+    color: rgb(87, 87, 87);
+}
+
+.awards-container img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 20px 0px 30px 0px;
+    border: 3px solid rgb(0, 165, 129);
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+      flex-direction: column;
+    }
+    .content-block {
+        flex-direction: column;
+    }
+}
